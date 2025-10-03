@@ -17,7 +17,7 @@ if (loginForm) {
         e.preventDefault();
         console.log("Form submitted, event type:", e.type);
         // window.location.href = "https://portfolio-teal-three-22.vercel.app";
-        window.location.href = "./home.html";
+        window.location.href = "./index.html";
     });
 }
 
