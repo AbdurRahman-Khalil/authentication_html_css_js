@@ -7,7 +7,7 @@ let loginForm = document.getElementById("login-form");
 if (signupBtn) {
     signupBtn.addEventListener("click", (e) => {
         e.preventDefault();
-        window.location.href = "./login.html";
+        window.location.href = "./index.html";
     });
 }
 
@@ -17,7 +17,7 @@ if (loginForm) {
         e.preventDefault();
         console.log("Form submitted, event type:", e.type);
         // window.location.href = "https://portfolio-teal-three-22.vercel.app";
-        window.location.href = "./index.html";
+        window.location.href = "./home.html";
     });
 }
 
