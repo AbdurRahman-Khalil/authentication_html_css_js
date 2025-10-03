@@ -7,7 +7,7 @@ let loginForm = document.getElementById("login-form");
 if (signupBtn) {
     signupBtn.addEventListener("click", (e) => {
         e.preventDefault();
-        window.location.href = "./index.html";
+        window.location.href = "./login.html";
     });
 }
 
@@ -25,6 +25,6 @@ if (loginForm) {
 if (logoutBtn) {
     logoutBtn.addEventListener("click", (e) => {
         e.preventDefault();
-        window.location.href = "./signup.html";
+        window.location.href = "./index.html";
     });
 }
